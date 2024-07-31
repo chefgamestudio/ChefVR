@@ -5,7 +5,17 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
+    path: Assets/Training/Controllers/Scenes/MetaScene.unity
+    guid: 8c66491e451fe49dab10abeadf34a9ef
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  m_configObjects: {}
+  - enabled: 1
+    path: Assets/Training/HandTracking/Scenes/HandTracking.unity
+    guid: 336224d0c40504d74a3bf79d9a84ae17
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 76d0aff723e274ad9ab35a7cc970ddca,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 3e6dd3085b10049068c84979a9820a63,
+      type: 2}
